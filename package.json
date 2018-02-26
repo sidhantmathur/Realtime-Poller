@@ -1,0 +1,23 @@
+{
+  "name": "poller",
+  "version": "1.0.0",
+  "description": "Real time polling app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "poll"
+  ],
+  "author": "Sidhant Mathur",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.7",
+    "nodemon": "^1.15.1",
+    "pusher": "^1.5.1"
+  }
+}
